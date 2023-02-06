@@ -161,6 +161,11 @@ export type BottomTabNavigationOptions = HeaderOptions & {
   tabBarAccessibilityLabel?: string;
 
   /**
+   * Boolean indicating whether the tab bar is visible when this screen is active.
+   */
+  tabBarVisible?: boolean;
+
+  /**
    * ID to locate this tab button in tests.
    */
   tabBarTestID?: string;
