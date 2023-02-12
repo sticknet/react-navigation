@@ -186,7 +186,7 @@ export default function BottomTabBar({
       animation(visible, {
         toValue: 1,
         useNativeDriver,
-        duration: 250,
+        duration: 500,
         ...visibilityAnimationConfig?.show?.config,
       }).start(({ finished }) => {
         if (finished) {
